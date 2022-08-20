@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Spandan's Website</title>
+  </head>
+  <body>
+    <!-- start writing your code -->
+    <div class="container">
+      <!--Navigation Menu-->
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="active" href="index.html"
+              ><i class="fa-solid fa-house-chimney"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#work"><i class="fa-solid fa-folder"></i></a>
+          </li>
+          <li>
+            <a href="#contact"><i class="fa-solid fa-envelope"></i></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+
+      <!--Main Content -->
+      <main>
+        <section class="home">
+          <header>
+            <h1>Spandan D Kotyan</h1>
+            <p>Computer Science Engineer</p>
+          </header>
+          <div class="img-self">
+            <!-- <a href="#work"> -->
+            <img src="./assets/images/me.jpg" alt="my picture" />
+            <!-- <i class="fa-solid fa-square-chevron-right"></i> -->
+            <!-- </a> -->
+          </div>
+        </section>
+
+        <section class="work">
+          <header>
+            <h2>Work</h2>
+            <p>
+              I'm a 'E'verything developer. I'm a skilled Developer, Programmer, content creator, VFX & GFX artist,
+              etc... And my ambition is to become an entrepreneur. And I also have a start-up.
+            </p>
+          </header>
+          <div class="content">
+            <div class="item">
+              <a href="#"><img src="./assets/images/pic01.png" style="padding:0px; border:solid black;" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./assets/images/pic02.jpg" style="padding:0px; border:solid black;" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./assets/images/pic03.jpg" style="padding:0px; border:solid black;" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./assets/images/pic04.jpg" style="padding:0px; border:solid black;" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./assets/images/pic05.jpg" style="padding:0px; border:solid black;" alt="" /></a>
+            </div>
+            <div class="item">
+              <a href="#"><img src="./assets/images/pic06.png" style="padding:0px; border:solid black;" alt="" /></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="contact">
+          <header>
+            <h2>Contact Me</h2>
+          </header>
+          <form action="#" method="post">
+            <div class="name">
+              <input
+                type="text"
+                placeholder="Name"
+                minlength="3"
+                maxlength="40"
+              />
+            </div>
+            <div class="email">
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="subject">
+              <input
+                type="text"
+                placeholder="Subject"
+                minlength="5"
+                maxlength="40"
+              />
+            </div>
+            <div class="message">
+              <textarea rows="6" cols="40" placeholder="Message"></textarea>
+            </div>
+            <div class="send">
+              <button type="button">Send</button>
+            </div>
+          </form>
+        </section>
+      </main>
+
+      <!-- Footer-->
+      <footer>
+        <ul class="copyright">
+          <li>&copy; SDK Group.</li>
+          <li>
+            &nbsp;&nbsp;| Instagram: <a href="https://www.instagram.com/spandan_d_k/">spandan_d_k</a>
+          </li>
+          <li>
+            &nbsp;&nbsp;| G-Mail:
+            <a href="mailTo:spandankotyan189@gmail.com">G-Mail</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
